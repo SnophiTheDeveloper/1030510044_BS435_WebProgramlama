@@ -1,6 +1,6 @@
 const imgs =[
-    cat="./img/cat.jpg",
-    dog="./img/dog.jpg"
+    cat="./public/cat.jpg",
+    dog="./public/dog.jpg"
 ];
 
 var flag = 0;
