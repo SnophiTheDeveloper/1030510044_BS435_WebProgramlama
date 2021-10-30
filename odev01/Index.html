@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Kediyi Bul</title> 
+        <link rel="stylesheet" href="style.css"/> 
+        <script src="kod.js"></script> 
+        <script>
+            setupCat();
+        </script>
+    </head> 
+
+    <body> 
+        <h2>Kedi Bulmaca</h2> 
+        <img id="img0" class="kart" onclick="findCat('img0')">
+        <img id="img1" class="kart" onclick="findCat('img1')">
+        <img id="img2" class="kart" onclick="findCat('img2')"> 
+
+        <div class="mesaj"> 
+            <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın.</p> 
+            <p id="kazandiId" style="display: none"></p> 
+            <p id="yenildiId" style="display: none"></p>
+        </div> 
+</body> 
+</html>
