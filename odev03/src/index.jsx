@@ -69,10 +69,10 @@ getcat()
 render(){
 
 return (
-    <>
+    <div>
     {this.getcat()}
     {this.state.string}
-    </>
+    </div>
 );
 }
 }
